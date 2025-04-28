@@ -19,4 +19,4 @@ A simple to-do list web application built with **HTML**, **CSS**, and **JavaScri
 Simply open `index.html` in your browser!
 
 ## Author
-- GitHub: [YourUsername]
+- GitHub: [Rudra-Sketchy]
