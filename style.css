@@ -127,3 +127,48 @@ h1 {
     opacity: 0;
   }
 }
+
+/* Dark mode styles */
+body.dark-mode {
+  background: #1e1e1e;
+  color: #f1f1f1;
+}
+
+body.dark-mode .container {
+  background: #2c2c2c;
+}
+
+body.dark-mode input,
+body.dark-mode button {
+  background: #444;
+  color: #f1f1f1;
+  border: 1px solid #666;
+}
+
+body.dark-mode .task-item {
+  background: #3a3a3a;
+}
+
+/* Toggle button style */
+#dark-mode-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#dark-mode-toggle:hover {
+  background: #0056b3;
+}
+
+/* Smooth transition for all */
+body, .container, input, button, .task-item {
+  transition: background 0.5s, color 0.5s;
+}
+
